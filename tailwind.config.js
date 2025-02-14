@@ -1,7 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
-  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
+  content: [
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+    "*.{js,ts,jsx,tsx,mdx}",
+  ],
   theme: {
     container: {
       center: true,
@@ -50,6 +56,12 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
         "theta-red": "#9A3030",
+        "theta-monday": "#790000",
+        "theta-tuesday": "#00597F",
+        "theta-wednesday": "#4A1970",
+        "theta-thursday": "#88305D",
+        "theta-friday": "#051973",
+        "theta-saturday": "#7E6300",
       },
       letterSpacing: {
         "widest-custom": "0.225em",

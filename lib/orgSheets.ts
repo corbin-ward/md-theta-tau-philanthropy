@@ -9,7 +9,7 @@ export async function getSheetData(): Promise<OrgData[]> {
   try {
     const SHEET_ID = process.env.NEXT_PUBLIC_SHEET_ID;
     const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_API_KEY;
-    const RANGE = "'Website Data'!A2:D31";
+    const RANGE = "'Website Data'!A2:D";
 
     const url = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${RANGE}?key=${API_KEY}`;
     const response = await fetch(url, { next: { revalidate: 300 } });

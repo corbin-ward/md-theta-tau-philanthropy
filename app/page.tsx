@@ -3,7 +3,7 @@
 import Header from "@/components/header"
 import Leaderboard from "@/components/leaderboard"
 import EventCard from "@/components/event-card"
-import { eventData } from "@/lib/data"
+import { eventData } from "@/lib/eventData"
 import Image from "next/image"
 
 export default function Home() {
