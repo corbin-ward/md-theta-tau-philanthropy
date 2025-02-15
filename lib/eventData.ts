@@ -24,8 +24,7 @@ export const eventData: Event[] = [
     location: "University Plaza",
     headerColor: "bg-theta-monday",
     buttons: [
-      { text: "Buy Toad Plush", link: "/shop/toad-plush" },
-      { text: "Toad Talk Schedule", link: "/events/toad-talks" },
+      { text: "Event Info", link: "https://docs.google.com/document/d/1G62ILDtCeYX2rYbWSdoltV8Sug1hU9dX_VuBb5EHMKw/edit?usp=share_link" },
     ],
   },
   {
@@ -37,8 +36,7 @@ export const eventData: Event[] = [
     location: "COB 105",
     headerColor: "bg-theta-monday",
     buttons: [
-      { text: "Register Team", link: "/events/mario-makers" },
-      { text: "View Rules", link: "/rules/mario-makers" },
+      { text: "Event Info", link: "https://docs.google.com/document/d/18vkQF4kQP0S2BLH24D_Cjp1BLuIxg8jYt_QGwMHphD0/edit?usp=sharing" },
     ],
   },
   {
@@ -50,8 +48,7 @@ export const eventData: Event[] = [
     location: "Scholar's Lane",
     headerColor: "bg-theta-tuesday",
     buttons: [
-      { text: "Pre-order Pies", link: "/shop/pies" },
-      { text: "Reserve Balloons", link: "/shop/balloons" },
+      { text: "Event Info", link: "https://docs.google.com/document/d/1C9_qqMb_64k6vyI0y3VO5lUDKxwz9-zG0kBULXPTBI8/edit?usp=sharing" },
     ],
   },
   {
@@ -63,8 +60,8 @@ export const eventData: Event[] = [
     location: "SSB 130",
     headerColor: "bg-theta-tuesday",
     buttons: [
-      { text: "Register Team", link: "/events/smash-dash" },
-      { text: "Tournament Bracket", link: "/bracket/smash-dash" },
+      { text: "Register Team", link: "https://forms.gle/KR3VSjUkKTQ3aWMP7" },
+      { text: "Event Info", link: "https://docs.google.com/document/d/17muortSHJYLBKEIYuK6-tbpFPyvf6qpLlWvpWZosCQQ/edit?usp=sharing" },
     ],
   },
   {
@@ -76,8 +73,7 @@ export const eventData: Event[] = [
     location: "Scholar's Lane + CTK Quad",
     headerColor: "bg-theta-wednesday",
     buttons: [
-      { text: "Register Team", link: "/events/capture-koopa" },
-      { text: "View Schedule", link: "/schedule/koopa" },
+      { text: "Event Info", link: "https://docs.google.com/document/d/1eodVLr--QqPrcGQiD1J8twr7SQ4T9tGqvO2oxXI06JI/edit?usp=sharing" },
     ],
   },
   {
@@ -89,8 +85,7 @@ export const eventData: Event[] = [
     location: "COB 105",
     headerColor: "bg-theta-wednesday",
     buttons: [
-      { text: "Register Players", link: "/events/minigame-mashup" },
-      { text: "Game List", link: "/games/minigames" },
+      { text: "Event Info", link: "https://docs.google.com/document/d/117Ij4AKLVYCKR7DEE089Rmgjmref9LPiQkqNQE4DY28/edit?usp=sharing" },
     ],
   },
   {
@@ -102,8 +97,7 @@ export const eventData: Event[] = [
     location: "Academic Walk",
     headerColor: "bg-theta-thursday",
     buttons: [
-      { text: "Start Hunt", link: "/events/treasure-tracker" },
-      { text: "View Clues", link: "/clues/treasure" },
+      { text: "Event Info", link: "https://docs.google.com/document/d/1cxBLlS_1_Y5ahkvYHwoOsJm5BIs3vtrdmc4MRjh_6hI/edit?usp=sharing" },
     ],
   },
   {
@@ -115,8 +109,8 @@ export const eventData: Event[] = [
     location: "COB 105",
     headerColor: "bg-theta-thursday",
     buttons: [
-      { text: "Register Performance", link: "/events/dance-off" },
-      { text: "Music Selection", link: "/music/mario" },
+      { text: "Event Info", link: "https://docs.google.com/document/d/1GgZManmEGEECbj2c03cdaWBCbBAHYJkqpOjImcXZcrc/edit?usp=sharing" },
+      { text: "Submit Music", link: "/music/mario" },
     ],
   },
   {
@@ -128,8 +122,8 @@ export const eventData: Event[] = [
     location: "Instagram",
     headerColor: "bg-theta-friday",
     buttons: [
-      { text: "View Bingo Card", link: "/events/bingo" },
-      { text: "Submit Dares", link: "/submit/dares" },
+      { text: "Submit Donation", link: "/submit/dares" },
+      { text: "Event Info", link: "https://docs.google.com/document/d/1w6vkq0XfXkmvGiOGicGDbl_a4V1w6F-2QUCGUE4c9D0/edit?usp=share_link" },
     ],
   },
   {
@@ -142,7 +136,7 @@ export const eventData: Event[] = [
     headerColor: "bg-theta-saturday",
     buttons: [
       { text: "Register Team", link: "/events/mario-hoops" },
-      { text: "Tournament Rules", link: "/rules/hoops" },
+      { text: "Event Info", link: "https://docs.google.com/document/d/1fXaepyQ9gYjMSt3gOL4cERKNfRSlzX_ynXjSOD85AJU/edit?usp=sharing" },
     ],
   },
 ];

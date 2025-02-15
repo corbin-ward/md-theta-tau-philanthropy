@@ -92,3 +92,11 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.bg-theta-monday { background-color: theme('colors.theta.monday'); }
+.bg-theta-tuesday { background-color: theme('colors.theta.tuesday'); }
+.bg-theta-wednesday { background-color: theme('colors.theta.wednesday'); }
+.bg-theta-thursday { background-color: theme('colors.theta.thursday'); }
+.bg-theta-friday { background-color: theme('colors.theta.friday'); }
+.bg-theta-saturday { background-color: theme('colors.theta.saturday'); }
+.bg-theta-red { background-color: theme('colors.theta.red'); }
