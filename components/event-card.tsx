@@ -3,8 +3,12 @@ import { Button } from "@/components/ui/button"
 import { Calendar, Clock, MapPin } from "lucide-react"
 import Link from "next/link"
 import type { Event } from "@/lib/eventData"
+import React from 'react'
 
 export default function EventCard({ title, description, date, time, location, headerColor, buttons }: Event) {
+  const isExternalLink = (url: string) => url.startsWith('http');
+
+  
   return (
     <Card className="bg-white shadow-lg border-0 overflow-hidden group hover:shadow-xl transition-shadow">
       <CardHeader className={`text-white ${headerColor}`}>
@@ -39,7 +43,15 @@ export default function EventCard({ title, description, date, time, location, he
             asChild
             className={`flex-1 ${headerColor} hover:opacity-90 text-white font-['Helvetica'] transition-colors`}
           >
-            <Link href={button.link}>{button.text}</Link>
+            {isExternalLink(button.link) ? (
+              <a href={button.link} target="_blank" rel="noopener noreferrer">
+                {button.text}
+              </a>
+            ) : (
+              <Link href={button.link}>
+                {button.text}
+              </Link>
+            )}
           </Button>
         ))}
       </CardFooter>
