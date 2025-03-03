@@ -60,8 +60,8 @@ export const eventData: Event[] = [
     location: "SSB 130",
     headerColor: "bg-theta-tuesday",
     buttons: [
-      { text: "Register Team", link: "https://forms.gle/KR3VSjUkKTQ3aWMP7" },
       { text: "Event Info", link: "https://docs.google.com/document/d/17muortSHJYLBKEIYuK6-tbpFPyvf6qpLlWvpWZosCQQ/edit?usp=sharing" },
+      { text: "Register Team", link: "https://forms.gle/KR3VSjUkKTQ3aWMP7" },
     ],
   },
   {
@@ -122,8 +122,8 @@ export const eventData: Event[] = [
     location: "Instagram",
     headerColor: "bg-theta-friday",
     buttons: [
-      { text: "Submit Donation", link: "/submit/dares" },
       { text: "Event Info", link: "https://docs.google.com/document/d/1w6vkq0XfXkmvGiOGicGDbl_a4V1w6F-2QUCGUE4c9D0/edit?usp=share_link" },
+      { text: "Submit Donation", link: "/submit/dares" },
     ],
   },
   {
@@ -135,8 +135,8 @@ export const eventData: Event[] = [
     location: "Joseph Edward Gallo Recreation and Wellness Center",
     headerColor: "bg-theta-saturday",
     buttons: [
-      { text: "Register Team", link: "/events/mario-hoops" },
       { text: "Event Info", link: "https://docs.google.com/document/d/1fXaepyQ9gYjMSt3gOL4cERKNfRSlzX_ynXjSOD85AJU/edit?usp=sharing" },
+      { text: "Register Team", link: "/events/mario-hoops" },
     ],
   },
 ];
