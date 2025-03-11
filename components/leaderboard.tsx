@@ -41,7 +41,7 @@ export default function Leaderboard() {
   
   const isDesktop = useMediaQuery("(min-width: 1024px)");
 
-  const sizes = ['All Sizes', 'Smaller', 'Small', 'Large', 'Larger'];
+  const sizes = ['All Sizes', 'Small', 'Medium', 'Large'];
   const types = ['All Types', 'Club', 'Fraternity', 'Professional', 'Sorority'];
 
   useEffect(() => {
