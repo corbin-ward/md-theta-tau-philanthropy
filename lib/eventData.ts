@@ -175,7 +175,7 @@ export const eventData: Event[] = [
     headerColor: "bg-theta-tuesday",
     buttons: [
       { text: "Event Info", link: "#", isDialog: true },
-      { text: "Register Team", link: "https://forms.gle/KR3VSjUkKTQ3aWMP7" },
+      { text: "Register Team", link: "https://docs.google.com/forms/d/e/1FAIpQLSdlOEEfIAaBkwDv8USz7B4KNK-45BouhEuv2ylqGQEzEccB4w/viewform?usp=dialog" },
     ],
     ruleSections: [
       {
@@ -361,7 +361,7 @@ export const eventData: Event[] = [
     headerColor: "bg-theta-thursday",
     buttons: [
       { text: "Event Info", link: "#", isDialog: true },
-      { text: "Submit Music", link: "/music/mario" },
+      { text: "Submit Music", link: "https://docs.google.com/forms/d/e/1FAIpQLSdAs_Ylhe7OiJJuvuiXK9wzc64KjY6fd5xAapt5tXcj7k8dAg/viewform?usp=dialog" },
     ],
     ruleSections: [
       {
@@ -416,7 +416,7 @@ export const eventData: Event[] = [
     headerColor: "bg-theta-friday",
     buttons: [
       { text: "Event Info", link: "#", isDialog: true },
-      { text: "Submit Donation", link: "/submit/dares" },
+      { text: "Submit Donation", link: "https://docs.google.com/forms/d/e/1FAIpQLSeiiVhX4lbyOpxQxnj1lc3ftz37omRJqu5A89shdSxZa7bmbQ/viewform?usp=dialog" },
     ],
     ruleSections: [
       {
@@ -459,7 +459,7 @@ export const eventData: Event[] = [
     headerColor: "bg-theta-saturday",
     buttons: [
       { text: "Event Info", link: "#", isDialog: true },
-      { text: "Register Team", link: "/events/mario-hoops" },
+      { text: "Register Team", link: "https://docs.google.com/forms/d/e/1FAIpQLSdOLd2pOPIAleJEgDJPWSISQXwUplmo2CzPTI4XXvi7ZCRGSQ/viewform?usp=dialog" },
     ],
     ruleSections: [
       {
