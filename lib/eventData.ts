@@ -25,7 +25,7 @@ export const eventData: Event[] = [
   {
     id: "1",
     title: "Monday Morning: Toad's Trading Post + Toad Talks",
-    description: "Outdoor market with popup vendors for food, face paint, clothing and more. Get your Toad plush for double points and participate in Toad Talks!",
+    description: "Outdoor market with popup vendors for drinks, clothing, handmade goods, and more. Get your Toad plush for double points and participate in Toad Talks!",
     date: "March 17, 2025",
     time: "10:00 AM - 4:00 PM",
     location: "University Plaza",
@@ -116,7 +116,7 @@ export const eventData: Event[] = [
   {
     id: "3",
     title: "Tuesday Morning: Bowser's Balloon Bonanza + Peach's Pie Party",
-    description: "Get your balloons and pies! 5 balloons for $3, 2 balloons for $1. Special offer: 2 pies for $5!",
+    description: "Throw balloons and pies at brothers! 5 balloons for $3, 2 balloons for $1. Special offer: 2 pies for $5!",
     date: "March 18, 2025",
     time: "10:00 AM - 2:00 PM",
     location: "Scholar's Lane",
@@ -168,7 +168,7 @@ export const eventData: Event[] = [
   {
     id: "4",
     title: "Tuesday Evening: Smash & Dash",
-    description: "Compete in a duos Super Smash Bros Tournament and Mario Kart games. Bracket-style tournament for Smash, all teams race in Mario Kart!",
+    description: "Compete in a duos Super Smash Bros Tournament and Mario Kart games!",
     date: "March 18, 2025",
     time: "6:30 PM - 8:30 PM",
     location: "SSB 130",
@@ -263,7 +263,7 @@ export const eventData: Event[] = [
   {
     id: "6",
     title: "Wednesday Evening: Minigame Mashup",
-    description: "Choose 4 representatives to compete in randomly selected Mario Party minigames! Only one rep per minigame.",
+    description: "Choose up to 7 representatives to compete in randomly selected Mario Party minigames! Only one rep per minigame.",
     date: "March 19, 2025",
     time: "6:30 PM - 8:30 PM",
     location: "COB 105",
@@ -354,7 +354,7 @@ export const eventData: Event[] = [
   {
     id: "8",
     title: "Thursday Evening: Daisy's Dance Off",
-    description: "Prepare a 1-4 minute dance performance featuring Mario game music. Must include Jacqueminot candidates!",
+    description: "Prepare a 1-4 minute dance performance featuring Mario game music!",
     date: "March 20, 2025",
     time: "6:30 PM - 8:30 PM",
     location: "COB 105",
@@ -451,7 +451,7 @@ export const eventData: Event[] = [
   },
   {
     id: "10",
-    title: "Saturday Afternoon: Mario Hoops",
+    title: "Saturday Afternoon: Hoops for Homes",
     description: "5v5 basketball tournament with 5-minute halves. Tournament style bracket based on org type.",
     date: "March 22, 2025",
     time: "12:00 PM - 4:00 PM",
