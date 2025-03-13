@@ -3,7 +3,9 @@
 import Header from "@/components/header"
 import Leaderboard from "@/components/leaderboard"
 import EventCard from "@/components/event-card"
+import ShirtCard from "@/components/shirt-card"
 import { eventData } from "@/lib/eventData"
+import { shirtData } from "@/lib/shirtData"
 import Image from "next/image"
 
 export default function Home() {
@@ -41,11 +43,24 @@ export default function Home() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-7xl mx-auto">
           <section>
+            {/* Shirt Presale - Left Column, Above Leaderboard */}
+            <div className="mb-12">
+              <h2 className="font-['Open_Sans'] text-2xl font-extrabold text-theta-red uppercase tracking-widest-custom leading-none mb-6">
+                Shirt Presale
+              </h2>
+              <div className="grid gap-6">
+                <ShirtCard {...shirtData} />
+              </div>
+            </div>
+            
+            {/* Current Standings - Left Column, Below Shirt Presale */}
             <h2 className="font-['Open_Sans'] text-2xl font-extrabold text-theta-red uppercase tracking-widest-custom leading-none mb-6">
               Current Standings
             </h2>
             <Leaderboard />
           </section>
+          
+          {/* Upcoming Events - Right Column */}
           <section>
             <h2 className="font-['Open_Sans'] text-2xl font-extrabold text-theta-red uppercase tracking-widest-custom leading-none mb-6">
               Upcoming Events
@@ -61,4 +76,3 @@ export default function Home() {
     </div>
   )
 }
-
