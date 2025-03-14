@@ -24,46 +24,43 @@ export interface Event {
 export const eventData: Event[] = [
   {
     id: "1",
-    title: "Monday Morning: Toad's Trading Post + Toad Talks",
-    description: "Outdoor market with popup vendors for drinks, clothing, handmade goods, and more. Get your Toad plush for double points and participate in Toad Talks!",
-    date: "March 17, 2025",
-    time: "10:00 AM - 4:00 PM",
-    location: "University Plaza",
+    title: "Monday Afternoon: Bowser Jr.'s Bingo",
+    description: "Complete dares posted on Instagram for points! Purchase a whole row for bonus points.",
+    date: "March 21, 2025",
+    time: "12:00 PM - 6:00 PM",
+    location: "Instagram",
     headerColor: "bg-theta-monday",
     buttons: [
       { text: "Event Info", link: "#", isDialog: true },
+      { text: "Submit Donation", link: "https://docs.google.com/forms/d/e/1FAIpQLSeiiVhX4lbyOpxQxnj1lc3ftz37omRJqu5A89shdSxZa7bmbQ/viewform?usp=dialog" },
     ],
     ruleSections: [
       {
-        title: "Toad's Trading Post Rules",
+        title: "Bingo Structure",
         rules: [
-          "Toad plushes cost $8 each",
-          "500 Points per Toad purchased",
-          "Each organization member may purchase only ONE Toad",
-          "No sharing or transferring of Toads between members",
-          "Toads must be visibly worn/carried during events to receive double points",
-          "Cash, Venmo, and Zelle payments accepted"
+          "Bingo cards posted on Instagram with dares",
+          "Organization members purchase dares to complete",
+          "Completed dares will be documented and posted",
+          "Brothers determine which dares go on cards"
         ]
       },
       {
-        title: "Toad Talks Rules",
+        title: "Purchasing & Points",
         rules: [
-          "Up to 3 members from one organization can speak to 1 brother at a time",
-          "Each organization member may speak to each brother only ONCE per day",
-          "Minimum conversation length: 2 minutes to qualify for points",
-          "Maximum conversation length: 15 minutes per brother interaction",
-          "200 points per verified talk without Toad",
-          "400 points per verified talk with Toad",
-          "Organization members must record brother names to verify points"
+          "Each dare costs minimum $5 to purchase",
+          "Points: 150 points per $1 spent on individual dares",
+          "Double points (300 per $1) if a whole row (not column) is purchased at once",
+          "Each dare can only be completed once",
+          "All dare purchases are final",
+          "Venmo and Zelle payments accepted"
         ]
       },
       {
-        title: "Vendor Information",
+        title: "Documentation Requirements",
         rules: [
-          "Organizations must respect vendor spaces",
-          "No loitering that blocks vendor access",
-          "Vendors operate independently from the philanthropy event",
-          "Drinks and merchandise available for purchase from vendors"
+          "Video/photo evidence of completed dares",
+          "Will be posted by 6:00 PM Friday",
+          "Organization will be clearly identified in posts",
         ]
       }
     ]
@@ -116,7 +113,7 @@ export const eventData: Event[] = [
   {
     id: "3",
     title: "Tuesday Morning: Bowser's Balloon Bonanza + Peach's Pie Party",
-    description: "Throw balloons and pies at brothers! 5 balloons for $3, 2 balloons for $1. Special offer: 2 pies for $5!",
+    description: "Throw balloons and pies at brothers! 5 balloons for $3, 2 balloons for $1. Special offer: 2 pies for $5! Purchase a Toad plush for extra points!",
     date: "March 18, 2025",
     time: "10:00 AM - 2:00 PM",
     location: "Scholar's Lane",
@@ -152,6 +149,17 @@ export const eventData: Event[] = [
           "Organization members who throw pies at non-volunteers will be asked to leave",
           "No reserving pies; first come, first served",
           "All pie sales are final (no refunds)"
+        ]
+      },
+      {
+        title: "Toad Plush Rules",
+        rules: [
+          "Toad plushes cost $8 each",
+          "500 Points per Toad purchased",
+          "Each organization member may purchase only ONE Toad",
+          "No sharing or transferring of Toads between members",
+          "Toads must be visibly worn/carried during events to receive double points",
+          "Cash, Venmo, and Zelle payments accepted"
         ]
       },
       {
@@ -408,43 +416,35 @@ export const eventData: Event[] = [
   },
   {
     id: "9",
-    title: "Friday Afternoon: Bowser Jr.'s Bingo",
-    description: "Complete dares posted on Instagram for points! Purchase a whole row for bonus points.",
-    date: "March 21, 2025",
-    time: "12:00 PM - 6:00 PM",
-    location: "Instagram",
+    title: "Friday Morning: Toad's Trading Post + Toad Talks",
+    description: "Outdoor market with popup vendors for drinks, clothing, handmade goods, and more. Bring your Toad plush for double points and participate in Toad Talks!",
+    date: "March 17, 2025",
+    time: "10:00 AM - 4:00 PM",
+    location: "University Plaza",
     headerColor: "bg-theta-friday",
     buttons: [
       { text: "Event Info", link: "#", isDialog: true },
-      { text: "Submit Donation", link: "https://docs.google.com/forms/d/e/1FAIpQLSeiiVhX4lbyOpxQxnj1lc3ftz37omRJqu5A89shdSxZa7bmbQ/viewform?usp=dialog" },
     ],
     ruleSections: [
       {
-        title: "Bingo Structure",
+        title: "Toad Talks Rules",
         rules: [
-          "Bingo cards posted on Instagram with dares",
-          "Organization members purchase dares to complete",
-          "Completed dares will be documented and posted",
-          "Brothers determine which dares go on cards"
+          "Up to 3 members from one organization can speak to 1 brother at a time",
+          "Each organization member may speak to each brother only ONCE per day",
+          "Minimum conversation length: 2 minutes to qualify for points",
+          "Maximum conversation length: 15 minutes per brother interaction",
+          "200 points per verified talk without Toad",
+          "400 points per verified talk with Toad",
+          "Organization members must record brother names to verify points"
         ]
       },
       {
-        title: "Purchasing & Points",
+        title: "Vendor Information",
         rules: [
-          "Each dare costs minimum $5 to purchase",
-          "Points: 150 points per $1 spent on individual dares",
-          "Double points (300 per $1) if a whole row (not column) is purchased at once",
-          "Each dare can only be completed once",
-          "All dare purchases are final",
-          "Venmo and Zelle payments accepted"
-        ]
-      },
-      {
-        title: "Documentation Requirements",
-        rules: [
-          "Video/photo evidence of completed dares",
-          "Will be posted by 6:00 PM Friday",
-          "Organization will be clearly identified in posts",
+          "Organizations must respect vendor spaces",
+          "No loitering that blocks vendor access",
+          "Vendors operate independently from the philanthropy event",
+          "Drinks and merchandise available for purchase from vendors"
         ]
       }
     ]
