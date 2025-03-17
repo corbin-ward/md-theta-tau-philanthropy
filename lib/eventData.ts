@@ -26,7 +26,7 @@ export const eventData: Event[] = [
     id: "1",
     title: "Monday Afternoon: Bowser Jr.'s Bingo",
     description: "Complete dares posted on Instagram for points! Purchase a whole row for bonus points.",
-    date: "March 21, 2025",
+    date: "March 17, 2025",
     time: "12:00 PM - 6:00 PM",
     location: "Instagram",
     headerColor: "bg-theta-monday",
@@ -258,14 +258,15 @@ export const eventData: Event[] = [
       {
         title: "Toad Talks Rules",
         rules: [
-          "Same rules as Monday's Toad Talks",
+          "Up to 3 members from one organization can speak to 1 brother at a time",
+          "Each organization member may speak to each brother only ONCE per day",
+          "Minimum conversation length: 2 minutes to qualify for points",
+          "Maximum conversation length: 15 minutes per brother interaction",
           "300 points per verified talk without Toad",
           "600 points per verified talk with Toad",
-          "Must record brother names for verification",
-          "One talk per brother per member per day",
-          "Up to 3 members from one organization can speak to 1 brother at a time"
+          "Organization members must record brother names to verify points"
         ]
-      }
+      },
     ]
   },
   {
@@ -418,7 +419,7 @@ export const eventData: Event[] = [
     id: "9",
     title: "Friday Morning: Toad's Trading Post + Toad Talks",
     description: "Outdoor market with popup vendors for drinks, clothing, handmade goods, and more. Bring your Toad plush for double points and participate in Toad Talks!",
-    date: "March 17, 2025",
+    date: "March 21, 2025",
     time: "10:00 AM - 4:00 PM",
     location: "University Plaza",
     headerColor: "bg-theta-friday",
@@ -433,8 +434,8 @@ export const eventData: Event[] = [
           "Each organization member may speak to each brother only ONCE per day",
           "Minimum conversation length: 2 minutes to qualify for points",
           "Maximum conversation length: 15 minutes per brother interaction",
-          "200 points per verified talk without Toad",
-          "400 points per verified talk with Toad",
+          "400 points per verified talk without Toad",
+          "800 points per verified talk with Toad",
           "Organization members must record brother names to verify points"
         ]
       },
