@@ -9,6 +9,18 @@ import { shirtData } from "@/lib/shirtData"
 import Image from "next/image"
 
 export default function Home() {
+  // Filter events based on date and time
+  const today = new Date()
+  const upcomingEvents = eventData.filter(event => {
+    const eventDateTime = new Date(`${event.date}, ${event.time.split(' - ')[1]}`)
+    return eventDateTime >= today
+  })
+  
+  const pastEvents = eventData.filter(event => {
+    const eventDateTime = new Date(`${event.date}, ${event.time.split(' - ')[1]}`)
+    return eventDateTime < today
+  })
+
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
@@ -43,10 +55,10 @@ export default function Home() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-7xl mx-auto">
           <section>
-            {/* Shirt Presale - Left Column, Above Leaderboard */}
+            {/* Buy a Shirt - Left Column, Above Leaderboard */}
             <div className="mb-12">
               <h2 className="font-['Open_Sans'] text-2xl font-extrabold text-theta-red uppercase tracking-widest-custom leading-none mb-6">
-                Shirt Presale
+                Buy a Shirt
               </h2>
               <div className="grid gap-6">
                 <ShirtCard {...shirtData} />
@@ -66,10 +78,28 @@ export default function Home() {
               Upcoming Events
             </h2>
             <div className="grid gap-6">
-              {eventData.map((event) => (
-                <EventCard key={event.id} {...event} />
-              ))}
+              {upcomingEvents.length > 0 ? (
+                upcomingEvents.map((event) => (
+                  <EventCard key={event.id} {...event} />
+                ))
+              ) : (
+                <p className="text-gray-600 font-['Helvetica']">No upcoming events at this time.</p>
+              )}
             </div>
+            
+            {/* Previous Events - Right Column, Below Upcoming Events */}
+            {pastEvents.length > 0 && (
+              <>
+                <h2 className="font-['Open_Sans'] text-2xl font-extrabold text-theta-red uppercase tracking-widest-custom leading-none mb-6 mt-12">
+                  Previous Events
+                </h2>
+                <div className="grid gap-6">
+                  {pastEvents.map((event) => (
+                    <EventCard key={event.id} {...event} />
+                  ))}
+                </div>
+              </>
+            )}
           </section>
         </div>
       </div>
